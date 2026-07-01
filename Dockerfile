@@ -9,7 +9,7 @@ COPY package*.json ./
 COPY index.js .
 
 # Instalar dependencias
-RUN npm install --no-audit --no-fund --update-notifier=false
+RUN npm ci
 
 # Exponer el puerto de la aplicación
 EXPOSE 3000
