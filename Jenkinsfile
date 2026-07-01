@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        // Esto obliga a todos los comandos de Docker en este pipeline a usar una API compatible
         DOCKER_API_VERSION = '1.40'
     }
 
